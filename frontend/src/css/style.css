@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css");
+
+body {
+    font: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #24252a;
+    text-align: center;
+    height: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    background-color: #24252a;
+}
+
+.logo {
+    cursor: pointer;
+    size: 10px;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    transition: all .3s ease 0s;
+    color: #fff;
+}
+
+.nav-area li a:hover {
+    color: #006C87;
+}
+
+.btn-area {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    border-radius: 5px;
+    background: #006C87;
+    display: inline-block;
+}
+
+
+.container {
+    height: 560px;
+    background-image: url(../images/background_image.jpg);
+    background-color:#24252a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#child {
+    font: 10em;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: x-large;
+    padding-bottom: 3em;
+}
+
+#sub {
+    font: 10em;
+    font-weight: 500;
+    color: #006C87;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   top:auto;
+   width: 100%;
+   background-color: #24252a;;
+   color: white;
+   text-align: center;
+   font-weight: 600;
+}
+
+.card .read-more:hover {
+    font-size: 14px;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 8px #006C87;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box__out {
+    background-color: #24252a;
+    height: 1000px;
+}
+
+
+
+.main__words{ 
+    font-weight: 500;
+    color: #006C87;
+    font-size: 6em;
+    text-align: center;
+}
+
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+
+

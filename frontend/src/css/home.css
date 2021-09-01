@@ -1,0 +1,45 @@
+.container {
+    height: 680px;
+    width: 400em;
+    /* background-color:#24252a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    background-image: url(../images/vinyl_background.png);
+}
+.child {
+    font: 10em;
+    font-weight: 800;
+    color: rgb(4, 225, 241);
+    font-size:xx-large;
+    padding-bottom: 3em;
+}
+
+.sub {
+    font: 10em;
+    font-weight: 500;
+    color: #ccdfd6;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    top:auto;
+    width: 100%;
+    background-color: #24252a;;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+ }
+
+.footer p {
+    color: rgb(241, 241, 241) !important;
+    font-size: x-large;
+}
